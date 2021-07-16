@@ -1,0 +1,2 @@
+# FFmpeg
+ffmpeg -i compres1.mp4 -i original.mp4 -lavfi libvmaf="model_path='H\:\\ffmpeg\\bin\\vmaf_v0.6.1.json':psnr=1:ssim=1:log_fmt=csv:log_path=VMAF.csv" -f null -
